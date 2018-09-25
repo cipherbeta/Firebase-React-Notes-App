@@ -1,0 +1,46 @@
+body {
+    background: rgb(250,250,250);
+    color: rgb(30,30,30);
+    font-family: 'Nunito', sans-serif;
+}
+
+.App {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#addbar_wrapper {
+    width: 3em;
+    border-right: 1px solid rgb(30,30,30);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: center;
+
+    i {
+        font-size: 2em;
+        cursor: pointer;
+        opacity: .75;
+        margin-bottom: .25em;
+        transition: .25s ease all;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+#notesbar_wrapper {
+    width: 12em;
+    border-right: 1px solid rgb(30,30,30);
+    height: 100vh;
+}
+
+#notes_wrapper {
+    flex-grow: 1;
+}

@@ -1,0 +1,37 @@
+body {
+  background: #fafafa;
+  color: #1e1e1e;
+  font-family: 'Nunito', sans-serif; }
+
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; }
+
+#addbar_wrapper {
+  width: 3em;
+  border-right: 1px solid #1e1e1e;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: .5em;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-items: center; }
+  #addbar_wrapper i {
+    font-size: 2em;
+    cursor: pointer;
+    opacity: .75;
+    margin-bottom: .25em;
+    transition: .25s ease all; }
+    #addbar_wrapper i:hover {
+      opacity: 1; }
+
+#notesbar_wrapper {
+  width: 12em;
+  border-right: 1px solid #1e1e1e;
+  height: 100vh; }
+
+#notes_wrapper {
+  flex-grow: 1; }
